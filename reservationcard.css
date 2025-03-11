@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;600&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: #f5ebe0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center everything */
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5e5d5; /* Match background */
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-card {
+    background: #fff;
+    padding: 30px;
+    width: 380px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    background-image: url('https://d1csarkz8obe9u.cloudfront.net/posterpreviews/wedding-invitation-card-background-template-d-design-972dbd50cc505f183342e127e9180cbd_screen.jpg?ts=1707044459'); /* Add a floral background image */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid #d4b996;
+}
+
+.title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    font-weight: bold;
+    color: #8b5e3b;
+}
+
+.names {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #4a3c31;
+}
+
+.date-time, .guests, .phone, .special-request {
+    font-size: 16px;
+    color: #5a4e42;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #8b5e3b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #6e4532;
+}
